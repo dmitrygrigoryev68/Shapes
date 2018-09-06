@@ -19,16 +19,6 @@ public class Square extends Shape {
     }
 
     @Override
-    public int compareTo(Shape obj) {
-        if (a * a > obj.square()){
-            return 1;
-        }
-        else if (a * a < obj.square()){
-            return -1;
-        }
-        return 0;
-    }
-    @Override
     public String toString(){
         return String.format("%.2f", a * a) + " " + name;
     }

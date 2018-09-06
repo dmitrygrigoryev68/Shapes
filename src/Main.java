@@ -29,9 +29,9 @@ public class Main {
             System.out.println(s.square());
         }
 
-        System.out.println("\nAfter ShapeComparator:  \n");
+        System.out.println("\nAfter ShapeNameComparator:  \n");
 
-        Arrays.sort(shapes, new ShapeComparator());
+        Arrays.sort(shapes, new ShapeNameComparator());
 
         for(Shape s : shapes){
             System.out.println(s);

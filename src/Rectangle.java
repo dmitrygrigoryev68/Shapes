@@ -18,19 +18,10 @@ public class Rectangle extends Shape {
     public double square() { return a * b; }
 
     @Override
-    public int compareTo(Shape obj) {
-        if (a * b > obj.square()){
-            return 1;
-        }
-        else if (a * b <obj.square()){
-            return -1;
-        }
-        return 0;
-    }
-    @Override
     public String toString(){
         return String.format("%.2f", a * b) + " " + name;
     }
 }
+
 
 
