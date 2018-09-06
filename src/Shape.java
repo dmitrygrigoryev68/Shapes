@@ -12,6 +12,9 @@ public abstract class Shape implements Comparable<Shape>{
         }
         return 0;
     }
+    public String toString(){
+        return String.format("%.2f", square()) + " " + getName();
+    }
 }
 
 

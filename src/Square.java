@@ -17,9 +17,4 @@ public class Square extends Shape {
     public double square() {
         return a * a;
     }
-
-    @Override
-    public String toString(){
-        return String.format("%.2f", a * a) + " " + name;
-    }
 }

@@ -16,9 +16,4 @@ public class Triangle extends Shape {
     public double square() {
         return a*b/2;
     }
-
-    @Override
-    public String toString(){
-        return String.format("%.2f", a*b/2) + " " + name;
-    }
 }

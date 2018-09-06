@@ -14,10 +14,5 @@ public class Circle extends Shape {
 
     @Override
     public double square() { return Math.PI* r * r; }
-
-    @Override
-    public String toString(){
-        return String.format("%.2f", Math.PI* r * r) + " " + name;
-    }
 }
 

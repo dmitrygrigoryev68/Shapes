@@ -16,11 +16,6 @@ public class Rectangle extends Shape {
 
     @Override
     public double square() { return a * b; }
-
-    @Override
-    public String toString(){
-        return String.format("%.2f", a * b) + " " + name;
-    }
 }
 
 
